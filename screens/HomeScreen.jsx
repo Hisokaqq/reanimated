@@ -10,6 +10,9 @@ const HomeScreen = ({navigation}) => {
       <TouchableOpacity style={{padding: 10, marginBottom: 5, borderBottomWidth: 1}} onPress={()=>navigation.navigate("Lesson2")}>
         <Text style={{fontSize:20, fontWeight: 'bold'}}>Lesson 2</Text>
       </TouchableOpacity>
+      <TouchableOpacity style={{padding: 10, marginBottom: 5, borderBottomWidth: 1}} onPress={()=>navigation.navigate("Lesson3")}>
+        <Text style={{fontSize:20, fontWeight: 'bold'}}>Lesson 3</Text>
+      </TouchableOpacity>
     </SafeAreaView>
   )
 }
